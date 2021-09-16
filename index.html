@@ -12,7 +12,7 @@
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <!--boostrap CSS-->
+  <!-- boostrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Custom Styling -->
 <link rel="stylesheet" href="style.css">
@@ -24,7 +24,7 @@
 <body>
   <!--landing page starts-->
   <header>
-    <div class="home-overlay">
+    <div class="home-overlay" id="home">
       <!--navbar-->
       <nav>
         <div class="logo"><a href="#"><img src="img/logo.png" width="80px"></a></div>
@@ -32,10 +32,10 @@
 
         </div>
         <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutus">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
         </ul>
         <div class="wrapper">
           <div class="search_box">
@@ -64,7 +64,7 @@
   
 
 <!-- Aboutus section -->
-<div class="section">
+<div class="section"id="aboutus" >
   <div class="container">
     <div class="content-section">
   <div class="title">
@@ -90,16 +90,17 @@
 
   
 <!-- services section -->
+
      <section id="services">
+      
       <div id="services-01">
           <div class="content-box-lg">
              <div class="container">
                 <div class="row">
                    <div class="col-md-12 text-center">
                        <div class="horizontal-heading">
-                  
-                           
-                           <h2>What we Do</h2>
+                        <h2>What we Do</h2>
+                        <br><br>
                        </div>
                    </div>
                 </div>
@@ -169,7 +170,9 @@
             </div>
         </div>
      </div>
+    
  </section>
+
  <!-- end of service section  -->
  <!-- ratings section -->
  <section class="testimonial-page">
@@ -238,7 +241,7 @@
 							<div class="layer"></div>
 							<div class="content">
 								<div class="card-user-img img-1">
-									<img src="img/pradeep.jpg" >
+									<img src="img/rabindra.jpg" >
 								</div>
 								
 								<div class="card-body text-center ">
@@ -250,7 +253,7 @@
 								
 								<!--  -->
 								<div class="card-bottoms">
-									<h4 class="user-name">Pradeep Bhattrai</h4>
+									<h4 class="user-name">Rabindra Singh Baniya</h4>
 									<p>
                     <span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star text-warning mr-1"></span><span class="fa fa-star-half-o text-warning mr-1"></span><span class="fa fa-star-o text-warning mr-1"></span>
 									  
@@ -267,7 +270,7 @@
 </section>
  <!-- end ofratings section -->
  <!-- Contactpage -->
- <div class="contact-us">
+ <div class="contact-us" id="contact">
    <h1>Contact us</h1>
   <div class="contact">
     <div class="left-side">
@@ -334,10 +337,10 @@
         <div class="col-xs-6 col-md-3">
           <h6>Quick Links</h6>
           <ul class="footer-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Contact us</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact us</a></li>
           
           </ul>
         </div>
@@ -347,8 +350,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-       <a href="#">Kollywoodmemes</a>.
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+       <a href="#">Kollywoodmemes</a>
           </p>
         </div>
 
