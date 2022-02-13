@@ -264,13 +264,20 @@ p {
 } 
 
 /* end of about us section */
+
 /*services*/
+
+#testimonials{
+  background-color: #ddd;
+}
+
 .kmp {
   margin: 80px 20px;
 }
 
 .service {
   margin: 35px 0;
+ 
 
 }
 
@@ -675,7 +682,7 @@ p {
 {
   background-color:#bc2a8d;
 }
-.social-icons a.youtube:hover
+.social-icons a.tiktok:hover
 {
-  background-color:red
+  background-color:black;
 }
